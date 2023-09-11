@@ -5,7 +5,9 @@
 }
 
 .card {
+  
   border: 1px solid black;
+  border-radius: 50px;
   display: flex;
   flex-direction: row;
   height: 500px;
@@ -14,7 +16,8 @@
 }
 
 .left-half {
-  border: 1px solid black;
+  background-color: rgba(91,62,250,255);
+  color: white;
   flex-grow: 1;
   display: flex;
   flex-direction: column;
@@ -24,7 +27,6 @@
 }
 
 .right-half {
-  border: 1px solid black;
   flex-grow: 1;
   display: flex;
   flex-direction: column;
@@ -33,7 +35,6 @@
 }
 
 .categories {
-  border: 1px solid black;
   display: flex;
   flex-direction: column;
   gap: 30px;
@@ -55,6 +56,7 @@
 }
 
 .circle {
+  background-color: #462bda;
   border: 1px solid black;
   border-radius: 200px;
   width: 150px;
@@ -64,3 +66,12 @@
 .circle .seventy-six {
   font-size: 60px;
 }/*# sourceMappingURL=styles.css.map */
+.great {
+  font-size: 30px;
+}
+.continue-btn {
+  color: white;
+  border-radius: 30px;
+  background-color: #303b59;
+  height: 40px;
+}
